@@ -16,9 +16,13 @@ npm start
 yarn start
 ```
 
-## Visit Marketplace App
+## Important TIPs
 
-[Visit **APEWORLD** Marketplace](https://example.com/)
+> We use calls toward [https://mainnet.api.worldofv.art/graphql](https://mainnet.api.worldofv.art/graphql) for Apollo Client GraphQL query.
+>
+> But it's only allowed to access from [http://localhost:3000](http://localhost:3000), or you'll get a **CORS** error.
+
+## Visit Marketplace App
 
 http://localhost:3000/
 
